@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Thórsmörk tour</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="assets/css/noscript.css"
+    /></noscript>
+	
+  </head>
+  <body class="is-preload">
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+      <!-- Header -->
+      <header id="header">
+        <h1><a href="index.html">Glacier adventures</a></h1>
+      </header>
+
+      <!-- Wrapper -->
+      <section id="wrapper">
+        <header>
+          <div class="inner">
+            <h2>Thórsmörk tour</h2>
+            <p><b>Duration: 2 day tour</b></p>
+          </div>
+        </header>
+
+        <!-- Content -->
+        <div class="wrapper">
+          <div class="inner">
+
+			<section>
+				<h3 class="major">Fill out our form</h3>
+				<form method="post" action="#">
+				  <div class="row gtr-uniform">
+					<div class=col-12>
+					  <label for="demo-name">Name:</label>
+					  <input
+						type="text"
+						name="demo-name"
+						id="demo-name"
+						value=""
+					  />
+					</div>
+					<div class="col-12">
+					  <label for="demo-email">Email:</label>
+					  <input
+						type="email"
+						name="demo-email"
+						id="demo-email"
+						value=""
+					  />
+					</div>
+					<div class="col-12">
+						<label for="demo-email">confirm Email:</label>
+						<input
+						  type="email"
+						  name="demo-email"
+						  id="demo-email"
+						  value=""
+						/>
+					  </div>
+					<div class="col-12">
+						<label for="demo-email">Phone number:</label>
+						<input
+						  type="tel"
+						  name="demo-number"
+						  id="demo-number"
+              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+						  value=""
+						/>
+					  </div>
+					  <div class="col-12">
+						<label for="demo-email">Select date:</label>
+						<input
+						  type="date"
+						  name="demo-name"
+						  id="date-picker"
+              style="
+              color: inherit;
+              background-color: rgba(255, 255, 255, 0.025);
+              width: 100%;
+              display: block;
+              border-radius: 5px;
+              border: solid 2px rgba(255, 255, 255, 0.125);
+              "
+						/>
+					  </div>
+					<div class="col-12">
+					  <label for="demo-category">Do you need pick up ?</label>
+					  <select name="demo-category" id="pick-up-category" onchange="selection()">
+						<option value="">-</option>
+						<option value="1">I need pick up</option>
+						<option value="2">I don't need pick up</option>
+					  </select>
+					</div>
+
+          <div>
+            <h2 id="test"></h2>
+          </div>
+
+          <div class="col-12" id="display"
+          >
+						<label for="demo-email">Enter pick-up address:</label>
+						<input
+						  type="text"
+						  name="demo-address"
+						  id="pick-up-address"
+						  placeholder="Laugavegur 257, 101 Reykjavik"
+						/>
+					</div>
+				
+				
+				
+					<div class="col-12">
+					  <label for="demo-message">Comments:</label>
+					  <textarea
+						name="demo-message"
+						id="demo-message"
+						rows="2"
+					  ></textarea>
+					</div>
+					<div class="col-12">
+						<h3 style="margin-top: 25px;">Total amount: <h2>75.00$</h2></h3>
+					  <ul class="actions" 
+					  style="margin-top: 35px;">
+						<li>
+						  <input
+							type="submit"
+							value="Forward"
+							class="primary"
+						  />
+						</li>
+						<li><input type="reset" value="Reset" /></li>
+					  </ul>
+					</div>
+				  </div>
+				</form>
+			  </section>
+
+            
+
+
+	<script src="./date-picker.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
